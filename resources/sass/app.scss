@@ -6,3 +6,25 @@
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
+
+
+
+header #site-logo {
+    max-height: 50px;
+}
+
+header .nav-link {
+    position: relative;
+
+    color: #333;
+
+    font-family: sans-serif;
+    font-weight: 600;
+
+    text-transform: uppercase;
+}
+header .nav-link.active {
+    color: #0282F9;
+
+    box-shadow: inset 0 -5px 0 0 #0282F9;
+}
