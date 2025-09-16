@@ -20,7 +20,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ route("home") }}" class="nav-link h-100 d-flex align-items-center p-2 active" aria-current="page">
+                    <a href="{{ route("comics") }}" class="nav-link h-100 d-flex align-items-center p-2 active" aria-current="page">
                         Comics
                     </a>
                 </li>
