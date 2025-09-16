@@ -87,3 +87,41 @@
     font-weight: 700;
     font-size: .8rem;
 }
+
+
+
+
+// # Merchandise
+#merchandise .card {
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    background-color: transparent;
+    color: white;
+}
+#merchandise .card .card-body {
+    flex-grow: 0;
+    overflow: hidden;
+}
+#merchandise .card img {
+    max-width: 30px;
+    max-height: 30px;
+}
+#merchandise .card p {
+    font-size: .8rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (min-width: 576px) {
+    #merchandise .card {
+        flex-basis: 30%;
+    }
+}
+@media screen and (min-width: 768px) {
+    #merchandise .card {
+        flex-basis: 0%;
+    }
+}
