@@ -17,13 +17,14 @@ Laravel Comics - Home
 
 @section('content')
 <main>
-    Contenuto
-    <ul>
-        @foreach ($comics as $comic)
-            <li>
-                <h5>{{ $comic['title'] }}</h5>
-            </li>
-        @endforeach
-    </ul>
+    <div class="container">
+        <ul>
+            @foreach ($comics as $comic)
+                <li>
+                    <h5>{{ $comic['title'] }}</h5>
+                </li>
+            @endforeach
+        </ul>
+    </div>
 </main>
 @endsection
