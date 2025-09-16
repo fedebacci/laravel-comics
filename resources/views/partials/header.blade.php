@@ -1,4 +1,4 @@
-<section id="site-header" class="position-sticky top-0 bg-light shadow-sm">
+<section id="site-header" class="position-sticky top-0 z-3 bg-light shadow-sm">
     <div class="container">
         <header class="d-flex flex-wrap justify-content-center">
             <a 

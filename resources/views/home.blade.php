@@ -37,14 +37,28 @@ Laravel Comics - Home
                     @foreach ($comics as $comic)
                         <div class="col-6 col-sm-4 col-md-3 col-lg-2">
 
-                            <a href="#" class="card border-0 h-100 bg-dark text-bg-dark text-decoration-none">
+                            {{-- <a href="#" class="card border-0 h-100 bg-dark text-bg-dark text-decoration-none">
                                 <img src="{{ $comic['thumb'] }}" class="img-fluid card-img-top rounded-0" alt="{{ $comic['title'] }}">
                                 <div class="card-body px-0">
                                     <h5 class="card-title m-0">
                                         {{ $comic['series'] }}
                                     </h5>
                                 </div>
-                            </a>
+                            </a> --}}
+
+                            <x-card :comic="$comic">
+                                <x-slot:thumb>
+                                    {{ $comic['thumb'] }}
+                                </x-slot:thumb>
+                                <x-slot:title>
+                                    {{ $comic['title'] }}
+                                </x-slot:title>
+                                <x-slot:series>
+                                    {{ $comic['series'] }}
+                                </x-slot:series>
+                                {{-- B --}}
+                            </x-card>
+
                         </div>
                     @endforeach
                     <div class="col-12 text-center mt-3">

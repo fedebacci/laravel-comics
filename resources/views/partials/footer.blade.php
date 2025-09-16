@@ -26,7 +26,7 @@
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="{{ route("home") }}" class="text-reset text-decoration-none">
+                                            <a href="{{ route("home") }}" class="text-decoration-none">
                                                 Comics
                                             </a>
                                         </li>
