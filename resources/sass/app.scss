@@ -125,3 +125,124 @@
         flex-basis: 0%;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// # Site Footer (ATTENZIONE, RIPRESO DA REACT MA MIHLIORABILE)
+#page-footer #footer-social > .container > .row > .col,
+#page-footer #footer-social > .container > .row > .col > .social-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#page-footer #footer-social > .container > .row > .col:first-child {
+    flex-grow: 1;
+}
+#page-footer #footer-social > .container > .row > .col > .social-container {
+    gap: 1rem;
+}
+
+#footer-content {
+    background-image: url('../img/footer-bg.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* * Per effetto grafico del logo */
+    padding: 0;
+}
+#footer-content h5 {
+    color: #fff;
+}
+#footer-content nav {
+    color: #aaa;
+}
+#footer-content nav li {
+    line-height: 1;
+    margin-bottom: .25rem;
+}
+#footer-content nav li.active,
+#footer-content nav li:hover {
+    color: #ccc;
+}
+#footer-content nav li.active {
+    font-weight: bold;
+}
+.logo-big-container {
+    position: relative;
+    min-height: 150px;
+    background-image: url('../img/dc-logo-bg.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#footer-content > .container > .row > :first-child {
+    padding: calc(2 * var(--col-spacing)) 0;
+}
+
+
+#footer-social {
+    background-color: #303030;
+}
+#footer-social button.signUp {
+    padding: .75rem;
+    border: 2px solid #0282F9;
+    background-color: transparent;
+
+    /* font-size COME PER h5 */
+    /* font-size: 1.1rem; */
+    font-size: 1rem;
+    color: #fff;
+}
+#footer-social button.followUs {
+    padding: .75rem;
+    background-color: transparent;
+    border: 0;
+
+    /* font-size COME PER h5 */
+    /* font-size: 1.1rem; */
+    font-size: 1rem;
+    color: #0282F9;
+}
+#footer-social button.signUp,
+#footer-social button.followUs {
+    font-weight: bold;
+    font-size: .9rem;
+}
+#footer-social img.social-icon {
+    max-height: 2rem;
+}
