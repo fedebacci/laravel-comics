@@ -9,10 +9,14 @@
 
 
 
+
+// # Site Header
+// - Site Header Logo
 #site-header header #site-logo {
     max-height: 50px;
 }
 
+// - Site Header Nav Links
 #site-header header .nav-link {
     position: relative;
 
@@ -20,6 +24,7 @@
 
     font-family: sans-serif;
     font-weight: 600;
+    // font-size: .8rem;
     font-size: .75rem;
     letter-spacing: 0;
 
@@ -39,10 +44,46 @@
 
 
 
-
+// # Jumbotron
 #jumbotron {
     height: 33vh;
     background-image: url('../img/jumbotron.jpg');
     background-size: cover;
     background-position: center top;
+}
+
+
+
+
+
+
+
+
+
+
+
+// # List Sections
+.list-section {
+    position: relative;
+}
+.list-section-title {
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    font-weight: 700;
+}
+.list-section .card-img-top {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center top;
+}
+.list-section .card-title {
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+.btn-load-more {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .8rem;
 }
