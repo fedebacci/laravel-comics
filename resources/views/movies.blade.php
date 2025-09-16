@@ -13,5 +13,19 @@
                 </h1>
             </div>
         </section>
+
+        <x-banner>
+            <x-slot:background>
+                success
+            </x-slot:background>
+            <x-slot:color>
+                white
+            </x-slot:color>
+            
+
+            The new Aquaman movie is out!
+
+        </x-banner>
+
     </main>
 @endsection

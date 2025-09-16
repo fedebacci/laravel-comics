@@ -13,5 +13,20 @@
                 </h1>
             </div>
         </section>
+
+        <x-merchandise>
+            <x-banner>
+                <x-slot:background>
+                    warning
+                </x-slot:background>
+                <x-slot:color>
+                    dark
+                </x-slot:color>
+                
+
+                10% Discount on all Batman comics until tomorrow!
+
+            </x-banner>
+        </x-merchandise>
     </main>
 @endsection

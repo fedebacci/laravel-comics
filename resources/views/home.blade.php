@@ -72,8 +72,9 @@ Laravel Comics - Home
         </section>
 
 
+        <x-merchandise></x-merchandise>
 
-        <section id="merchandise" class="bg-primary py-3">
+        {{-- <section id="merchandise" class="bg-primary py-3">
             <div class="container d-flex flex-wrap justify-content-center align-items-center gap-3">
 
                 <div class="card py-3 d-flex flex-row align-items-center justify-content-center border-0 radius-0">
@@ -118,7 +119,7 @@ Laravel Comics - Home
                 </div>
 
             </div>
-        </section>
+        </section> --}}
 
     </main>
 @endsection
