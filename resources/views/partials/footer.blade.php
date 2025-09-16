@@ -21,37 +21,37 @@
                                 <nav>
                                     <ul class="list-unstyled">
                                         <li class="">
-                                            <a href="#" class="text-reset text-decoration-none">
+                                            <a href="{{ route("characters") }}" class="text-reset text-decoration-none">
                                                 Characters
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="#" class="text-reset text-decoration-none">
+                                            <a href="{{ route("home") }}" class="text-reset text-decoration-none">
                                                 Comics
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="#" class="text-reset text-decoration-none">
+                                            <a href="{{ route("movies") }}" class="text-reset text-decoration-none">
                                                 Movies
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="#" class="text-reset text-decoration-none">
+                                            <a href="{{ route("tv") }}" class="text-reset text-decoration-none">
                                                 TV
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="#" class="text-reset text-decoration-none">
+                                            <a href="{{ route("games") }}" class="text-reset text-decoration-none">
                                                 Games
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="#" class="text-reset text-decoration-none">
+                                            <a href="{{ route("videos") }}" class="text-reset text-decoration-none">
                                                 Videos
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a href="#" class="text-reset text-decoration-none">
+                                            <a href="{{ route("news") }}" class="text-reset text-decoration-none">
                                                 News
                                             </a>
                                         </li>
@@ -190,12 +190,12 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                        <button class="signUp">
-                            SIGN-UP NOW!
-                        </button>
-                        <button class="followUs">
-                            FOLLOW US
-                        </button>
+                    <button class="signUp">
+                        SIGN-UP NOW!
+                    </button>
+                    <button class="followUs">
+                        FOLLOW US
+                    </button>
                 </div>
                 <div class="col">
                     <div class="social-container h-100">

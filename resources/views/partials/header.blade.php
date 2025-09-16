@@ -1,4 +1,4 @@
-<section id="site-header" class="shadow-sm">
+<section id="site-header" class="position-sticky top-0 bg-light shadow-sm">
     <div class="container">
         <header class="d-flex flex-wrap justify-content-center">
             <a 
@@ -15,52 +15,52 @@
             </a>
             <ul class="nav">
                 <li class="nav-item">
-                    <a href="#" class="nav-link h-100 d-flex align-items-center p-2">
+                    <a href="{{ route("characters") }}" class="nav-link h-100 d-flex align-items-center p-2">
                         Characters
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link h-100 d-flex align-items-center p-2 active" aria-current="page">
+                    <a href="{{ route("home") }}" class="nav-link h-100 d-flex align-items-center p-2 active" aria-current="page">
                         Comics
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link h-100 d-flex align-items-center p-2">
+                    <a href="{{ route("movies") }}" class="nav-link h-100 d-flex align-items-center p-2">
                         Movies
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link h-100 d-flex align-items-center p-2">
+                    <a href="{{ route("tv") }}" class="nav-link h-100 d-flex align-items-center p-2">
                         Tv
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link h-100 d-flex align-items-center p-2">
+                    <a href="{{ route("games") }}" class="nav-link h-100 d-flex align-items-center p-2">
                         Games
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link h-100 d-flex align-items-center p-2">
+                    <a href="{{ route("collectibles") }}" class="nav-link h-100 d-flex align-items-center p-2">
                         Collectibles
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link h-100 d-flex align-items-center p-2">
+                    <a href="{{ route("videos") }}" class="nav-link h-100 d-flex align-items-center p-2">
                         Videos
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link h-100 d-flex align-items-center p-2">
+                    <a href="{{ route("fans") }}" class="nav-link h-100 d-flex align-items-center p-2">
                         Fans
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link h-100 d-flex align-items-center p-2">
+                    <a href="{{ route("news") }}" class="nav-link h-100 d-flex align-items-center p-2">
                         News
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link h-100 d-flex align-items-center p-2">
+                    <a href="{{ route("shop") }}" class="nav-link h-100 d-flex align-items-center p-2">
                         Shop
                     </a>
                 </li>
